@@ -22,8 +22,12 @@ MongoClient.connect(dbConnectionStr)
 app.use(express.urlencoded({extended : true}))
 app.use(express.json())
 app.use(cors())
-
 // API code
+app.use(express.static('public'));
+// app.get('/', (req,res) =>{
+//     res.sendFile('index.html');
+// })
+
 app.get('/search', async (req,res) =>{
     try{
         let result = await collection.aggregate(
