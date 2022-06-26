@@ -6,7 +6,7 @@
     "mongodb": "^4.7.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "web": "node server.js"
   },
   "name": "wolfemovie",
   "version": "1.0.0",
