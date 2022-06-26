@@ -4,5 +4,24 @@
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mongodb": "^4.7.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "wolfemovie",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DHHZ19/searchAutocomplete.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DHHZ19/searchAutocomplete/issues"
+  },
+  "homepage": "https://github.com/DHHZ19/searchAutocomplete#readme",
+  "description": ""
 }
