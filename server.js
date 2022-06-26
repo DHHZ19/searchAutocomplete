@@ -28,7 +28,7 @@ app.use(express.static('public'));
 // app.get('/', (req,res) =>{
 //     res.sendFile('index.html');
 // })
-
+//true
 app.get('/search', async (req,res) =>{
     try{
         let result = await collection.aggregate(
