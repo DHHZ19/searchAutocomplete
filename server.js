@@ -3,7 +3,8 @@ const app = express()
 const cors = require('cors')
 require('dotenv').config()
 const {MongoClient, ObjectId} = require('mongodb')
-
+app.use(express.urlencoded({ extended: true }))
+app.use(express.json())
 const PORT = 8000
 
 let db,
